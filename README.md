@@ -13,3 +13,6 @@ e.g. `2018-10-14-01, 2018-10-14-02, ..., 2018-10-14-12`.
 
 ## Files Lister
 Lists all files from current directory with different settings.
+
+## Processes Lister
+Lists the names from active processes.
