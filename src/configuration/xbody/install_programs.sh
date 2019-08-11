@@ -1,8 +1,11 @@
 #!/bin/bash
 # regular programs------------------------------------------------------------------------------------------------------
+# install dconf Editor
+sudo apt install dconf-editor
+
 # install Inkscape [latest]
 sudo add-apt-repository -y ppa:inkscape.dev/stable
-sudo apt update
+sudo apt update  # downloads/updates package lists from repositories to find out what are the newest program versions
 sudo apt install -y inkscape
 cp "/home/oem/Downloads/Shortcuts/inkscape.desktop" "/home/oem/Desktop/inkscape.desktop"
 
@@ -31,20 +34,21 @@ cp "/home/oem/Downloads/Shortcuts/wps-office-wps.desktop" "/home/oem/Desktop/wps
 # snap packages---------------------------------------------------------------------------------------------------------
 # install snap package support [latest]
 sudo apt update
-sudo apt upgrade -y
+sudo apt upgrade -y  # fetches the packages found by 'sudo apt-get update'
 sudo apt install -y snapd
 
+# install notepadqq [latest]
 install Notepadqq [latest]
 sudo snap install --classic notepadqq
 
 # development-----------------------------------------------------------------------------------------------------------
-# install git
+# install git [latest]
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install -y git
 
-# install Node.js with npm
+# install Node.js [12+] with npm [6+]
 sudo apt install -y curl  # to download the official Node.js installation script
 sudo apt install -y build-essential  # to compile and install native addons
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash
-sudo apt install -y nodejs
+sudo apt install -y nodejs 
