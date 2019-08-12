@@ -1,7 +1,7 @@
 #!/bin/bash
 DEFAULT_NUM_OF_FOLDERS=1
 
-echo -n "Number of folders? "  # '-n': no new line
+echo -n "Number of folders? (Default: 1) "  # '-n': no new line
 read number_of_folders
 
 number_pattern="^[0-9]+$'"
