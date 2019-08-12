@@ -24,8 +24,6 @@ cp "/home/oem/Downloads/Shortcuts/syntevo-smartgit.desktop" "/home/oem/Desktop/s
 sudo apt install -y "./WPS Office/wps-office_11.1.0.8392_amd64.deb"
 cd "/opt/kingsoft/wps-office/office6/dicts/spellcheck/"
 sudo unzip -f "/home/oem/Downloads/Programs/WPS Office/de_DE"  # '-f' freshen existing files, without replacement
-cd "/home/oem/.local/share/fonts/"
-sudo unzip -f "/home/oem/Downloads/Programs/WPS Office/wps-fonts-master"
 cd "/home/oem/Downloads/Programs/"
 cp "/home/oem/Downloads/Shortcuts/wps-office-et.desktop" "/home/oem/Desktop/wps-office-et.desktop"
 cp "/home/oem/Downloads/Shortcuts/wps-office-wpp.desktop" "/home/oem/Desktop/wps-office-wpp.desktop"
