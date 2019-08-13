@@ -25,6 +25,12 @@ sudo apt install -y "./WPS Office/wps-office_11.1.0.8392_amd64.deb"
 cd "/opt/kingsoft/wps-office/office6/dicts/spellcheck/"
 sudo unzip -f "/home/oem/Downloads/Programs/WPS Office/de_DE"  # '-f' freshen existing files, without replacement
 cd "/home/oem/Downloads/Programs/"
+gnome-font-viewer "/home/oem/Downloads/Programs/WPS Office/wps-fonts-master/wps/mtextra.ttf"
+gnome-font-viewer "/home/oem/Downloads/Programs/WPS Office/wps-fonts-master/wps/symbol.ttf"
+gnome-font-viewer "/home/oem/Downloads/Programs/WPS Office/wps-fonts-master/wps/WEBDINGS.TTF"
+gnome-font-viewer "/home/oem/Downloads/Programs/WPS Office/wps-fonts-master/wps/wingding.ttf"
+gnome-font-viewer "/home/oem/Downloads/Programs/WPS Office/wps-fonts-master/wps/WINGDNG2.ttf"
+gnome-font-viewer "/home/oem/Downloads/Programs/WPS Office/wps-fonts-master/wps/WINGDNG3.ttf"
 cp "/home/oem/Downloads/Shortcuts/wps-office-et.desktop" "/home/oem/Desktop/wps-office-et.desktop"
 cp "/home/oem/Downloads/Shortcuts/wps-office-wpp.desktop" "/home/oem/Desktop/wps-office-wpp.desktop"
 cp "/home/oem/Downloads/Shortcuts/wps-office-wps.desktop" "/home/oem/Desktop/wps-office-wps.desktop"
@@ -49,4 +55,4 @@ sudo apt-get install -y git
 sudo apt install -y curl  # to download the official Node.js installation script
 sudo apt install -y build-essential  # to compile and install native addons
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash
-sudo apt install -y nodejs 
+sudo apt install -y nodejs
