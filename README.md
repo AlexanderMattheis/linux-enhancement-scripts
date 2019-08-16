@@ -16,3 +16,11 @@ Lists all files from current directory with different settings.
 
 ## Processes Lister
 Lists the names from active processes.
+
+## Services Lister
+Lists the names from services.
+
+## Linux Mint Configurator
+Configures Linux Mint 19.1 Tessa after a reinstallation:
+- installs programs
+- loads a system configuration
