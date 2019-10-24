@@ -15,7 +15,7 @@ fi
 today=$(date +%Y-%m-%d)
 
 for i in ${counts[@]}; do
-    mkdir --parents "$today-$i"  # '--parents' to ignore existing folders
+    mkdir --parents "$today-$i"  # '--parents': to ignore existing folders
     let i=i+1
 done
 

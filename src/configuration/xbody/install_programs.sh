@@ -19,9 +19,9 @@ cd "/home/desktop/"
 cp "/home/alex/Downloads/Shortcuts/jetbrains-idea-ce.desktop" "/home/alex/Desktop/jetbrains-idea-ce.desktop"
 cd "/home/alex/Downloads/Programs/"
 
-# install SmartGit [18.2.9]
-sudo apt install -y "./smartgit-19_1_0.deb"
-cp "/home/alex/Downloads/Shortcuts/syntevo-smartgit.desktop" "/home/alex/Desktop/syntevo-smartgit.desktop"
+# install GitKraken [6.3.0]
+sudo apt install -y "./gitkraken-amd64.deb"
+cp "/home/alex/Downloads/Shortcuts/gitkraken.desktop" "/home/alex/Desktop/gitkraken.desktop"
 
 # install WPS Office [11.1.0.8392]"
 cd "/home/alex/Downloads/Programs/WPS Office/"
@@ -51,3 +51,4 @@ sudo apt install -y curl  # to download the official Node.js installation script
 sudo apt install -y build-essential  # to compile and install native addons
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash
 sudo apt install nodejs
+echo "Finished"
