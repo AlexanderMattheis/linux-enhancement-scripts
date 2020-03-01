@@ -1,7 +1,7 @@
 # Linux-Enhancement-Scripts
 Are you constantly stressed by your Linux system? You are constantly in dispute?
 Then I have something for you, the Linux-Enhancement-Scripts for a better, trustworthy cooperation
-between humans and machines. That scripts should simplify your life and give you more control over your operating system.
+between humans and machines. These scripts should simplify your life and give you more control over your operating system.
 Most scripts can be directly executed under Linux without any installation of further software.
 
 **Hint:** The scripts were written with GNU bash, `version 4.4.20(1)-release (x86_64-pc-linux-gnu)` and designed for Linux Mint 19.1 Tessa and above.
@@ -13,6 +13,10 @@ e.g. `2018-10-14-01, 2018-10-14-02, ..., 2018-10-14-12`.
 
 ## Files Lister
 Lists all files from current directory with different settings.
+
+## Inkscape PNG Exporter
+Exports for all Inkscape `*.svg`-files in a folder and its subfolders corresponding `*.png`-files 
+to an existent destination-folder. The script was tested with Inkscape 0.92.3 (2405546, 2018-03-11).
 
 ## Processes Lister
 Lists the names from active processes.
