@@ -29,6 +29,9 @@ Lists the names from active processes.
 ## Services Lister
 Lists the names from services.
 
+## Sync Folders
+Synchronizes two folders by replacing all contents that are different in the second folder with the contents of the first folder.
+
 <hr>
 
 ## Linux Mint Configurator
