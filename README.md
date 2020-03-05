@@ -6,7 +6,7 @@ Most scripts can be directly executed under Linux without any installation of fu
 
 **Hint:** The scripts were written with GNU bash (`version 4.4.20(1)-release (x86_64-pc-linux-gnu)`) and Python 3.6.9
 or above. They were designed for Linux Mint 19.1 Tessa and above. I cannot guarantee that they will work on other systems 
-than Linux Mint 19.3 Tricia.
+than Linux Mint 19.3 Tricia. Probably you have to install further software to run them.
 
 ## Dated Folder Creator
 Creates a number of folders with the current date and a count with padding in the format `yyyy-MM-dd-[count]`
@@ -31,6 +31,22 @@ Lists the names from services.
 
 ## Sync Folders
 Synchronizes two folders by replacing all contents that are different in the second folder with the contents of the first folder.
+Also, files which are in the second folder but not in the first folder are deleted automatically.
+
+#### Requierments
+- installed Pip3
+
+- installed `setuptools`-module 
+
+  ```bash
+  pip3 install setuptools
+  ```
+
+- installed `dirsync`-module 
+
+  ```bash
+  pip3 install dirsync --no-cache-dir  # `no-cache-dir`: deactivates pkg-caching
+  ```
 
 <hr>
 
